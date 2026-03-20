@@ -1,0 +1,749 @@
+O seu site CasaDigitalRP precisa nascer com 3 funções ao mesmo tempo:
+
+gerar confiança para clientes de pequenos negócios,
+
+servir como portfólio profissional para vagas e currículo,
+
+permitir crescimento futuro sem precisar refazer tudo do zero.
+
+O bordão “CasaDigitalRP, crescendo com você” é bom porque comunica parceria, evolução e proximidade. Isso combina com o público de pequenas empresas, autônomos e comércios locais.
+
+Vou te propor um escopo profissional de arquitetura e produto para a primeira versão, usando HTML, CSS e JavaScript, mas já pensando em escala.
+
+1. Visão do projeto
+
+Nome: CasaDigitalRP
+Posicionamento inicial: empresa/projeto profissional de criação de sites para pequenos negócios
+Slogan: CasaDigitalRP, crescendo com você
+Objetivo da versão 1: captar clientes, apresentar serviços, demonstrar capacidade técnica e servir como portfólio pessoal/profissional.
+
+Em termos estratégicos, esse site não deve parecer um “projeto de curso”.
+Ele deve parecer uma operação comercial em início de estruturação.
+
+2. Objetivos do negócio
+
+O site deve resolver estas necessidades:
+
+Para clientes
+
+entender rapidamente o que você faz;
+
+ver exemplos do seu trabalho;
+
+pedir orçamento com facilidade;
+
+confiar em você mesmo sendo uma empresa em fase inicial.
+
+Para sua carreira
+
+mostrar organização, visão de produto e noção de arquitetura;
+
+servir como prova prática de HTML, CSS, JS, responsividade, UX e estrutura profissional;
+
+mostrar que você sabe pensar como prestador de serviço e não só como programador.
+
+3. Público-alvo inicial
+
+Seu público ideal na primeira fase não deve ser “todo mundo”.
+Precisa ser um recorte simples e realista.
+
+Sugestão:
+
+pequenos comércios locais;
+
+prestadores de serviço;
+
+autônomos;
+
+profissionais liberais;
+
+pequenas empresas que ainda não têm site;
+
+negócios que só usam Instagram e WhatsApp.
+
+Exemplos:
+
+salão/barbearia,
+
+loja de roupas,
+
+mecânica,
+
+marmitaria,
+
+dentista,
+
+advogado,
+
+eletricista,
+
+escolas pequenas,
+
+clínicas,
+
+imobiliária local,
+
+escritório contábil.
+
+Isso é importante porque influencia a linguagem do site.
+O cliente desse perfil não quer saber de “stack moderna”. Ele quer saber:
+
+se o site vai trazer credibilidade;
+
+se vai funcionar no celular;
+
+se terá botão de WhatsApp;
+
+se vai aparecer bem para o cliente dele;
+
+quanto custa e em quanto tempo fica pronto.
+
+4. Proposta de valor
+
+A proposta de valor da CasaDigitalRP pode ser algo assim:
+
+“Criação de sites profissionais, rápidos, responsivos e pensados para pequenos negócios crescerem no digital com presença, confiança e praticidade.”
+
+Em tom mais comercial para a página:
+
+“Sites profissionais para pequenas empresas que querem vender mais, ter presença online e transmitir confiança.”
+
+5. Escopo funcional da versão 1
+
+Aqui está o que eu colocaria na primeira versão.
+
+5.1 Página inicial
+
+A home precisa responder em poucos segundos:
+
+quem é a CasaDigitalRP;
+
+o que ela entrega;
+
+para quem ela serve;
+
+como contratar.
+
+Estrutura recomendada:
+
+Hero section
+
+nome da marca;
+
+slogan;
+
+frase forte de valor;
+
+botão “Solicitar orçamento”;
+
+botão “Ver projetos”.
+
+Exemplo de mensagem:
+Sites profissionais para pequenas empresas.
+A CasaDigitalRP ajuda o seu negócio a crescer com presença digital, credibilidade e praticidade.
+
+Seção de benefícios
+
+site responsivo;
+
+visual profissional;
+
+integração com WhatsApp;
+
+carregamento rápido;
+
+foco em conversão;
+
+suporte inicial.
+
+Seção de serviços
+
+criação de landing pages;
+
+sites institucionais;
+
+páginas para autônomos;
+
+cardápios/serviços digitais;
+
+manutenção básica;
+
+atualização visual de sites.
+
+Seção de projetos/portfólio
+
+cards com imagens, nome do projeto, categoria e breve descrição.
+
+Seção “Como funciona”
+
+conversa inicial
+
+levantamento da necessidade
+
+proposta
+
+desenvolvimento
+
+entrega/publicação
+
+Seção de depoimentos
+Mesmo sem clientes reais no início, você pode usar:
+
+“projetos demonstrativos”,
+
+estudos de caso,
+
+feedbacks de colegas/professores,
+
+ou deixar preparado para a fase seguinte.
+
+Seção CTA final
+
+“Vamos criar o site do seu negócio?”
+
+botão WhatsApp
+
+botão formulário
+
+5.2 Página “Sobre”
+
+Aqui você une empresa + portfólio pessoal.
+
+Essa página deve ter:
+
+história do projeto;
+
+missão;
+
+visão;
+
+valores;
+
+sua apresentação profissional;
+
+porque a CasaDigitalRP existe.
+
+Sugestão estratégica:
+você pode apresentar a marca como negócio e, dentro dela, mostrar você como fundador/desenvolvedor.
+
+Exemplo de lógica:
+A CasaDigitalRP nasceu com o propósito de ajudar pequenos negócios a terem presença digital profissional, acessível e eficiente. O projeto é liderado por Gustavo Nascimento, desenvolvedor em evolução constante, com foco em criação web, organização, responsabilidade e soluções práticas para empresas.
+
+Isso é excelente para currículo porque mostra autoria, liderança e visão empreendedora.
+
+5.3 Página de serviços
+
+Essa página precisa ser muito clara. Nada genérico demais.
+
+Sugestão de serviços iniciais:
+
+Site institucional
+
+apresentação da empresa;
+
+serviços;
+
+contato;
+
+mapa;
+
+WhatsApp.
+
+Landing page
+
+página única focada em conversão;
+
+ideal para campanhas, profissionais autônomos e serviços específicos.
+
+Portfólio profissional
+
+para arquitetos, designers, fotógrafos, devs, etc.
+
+Página comercial local
+
+para comércios de bairro;
+
+destaque para localização, horários e contato rápido.
+
+Manutenção e atualização
+
+ajustes de conteúdo;
+
+pequenas melhorias visuais;
+
+atualização de banners, textos e informações.
+
+Cada serviço deve mostrar:
+
+para quem serve;
+
+o que inclui;
+
+benefício prático.
+
+5.4 Página de portfólio
+
+Muito importante.
+Se você ainda não tiver muitos clientes, pode começar com 3 tipos de projeto:
+
+projetos reais seus;
+
+projetos demonstrativos;
+
+redesigns conceituais.
+
+Cada card deve ter:
+
+nome do projeto;
+
+categoria;
+
+descrição curta;
+
+tecnologias usadas;
+
+objetivo do site;
+
+link “ver projeto”;
+
+opcional: link “ver código”.
+
+Isso é muito forte para recrutador e também para cliente.
+
+5.5 Página de contato/orçamento
+
+Essa página é crítica.
+
+Ela deve ter:
+
+formulário com nome, empresa, WhatsApp, e-mail, tipo de projeto, mensagem;
+
+botão de envio;
+
+botão de WhatsApp;
+
+e-mail profissional;
+
+localização: Ribeirão Preto/SP;
+
+prazo médio de resposta.
+
+Campos recomendados:
+
+nome
+
+nome da empresa
+
+WhatsApp
+
+e-mail
+
+tipo de site desejado
+
+já possui domínio? sim/não
+
+já possui identidade visual? sim/não
+
+objetivo do site
+
+prazo desejado
+
+Isso faz você parecer organizado e profissional.
+
+6. Funcionalidades recomendadas para a versão 1
+
+Mesmo em HTML, CSS e JS, dá para fazer bastante coisa.
+
+Essenciais
+
+layout responsivo;
+
+menu mobile;
+
+animações leves;
+
+formulário validado com JavaScript;
+
+botão flutuante de WhatsApp;
+
+rolagem suave;
+
+SEO básico;
+
+favicon;
+
+estrutura semântica;
+
+loading leve ou transições discretas;
+
+seção FAQ;
+
+botões de CTA em pontos estratégicos.
+
+Diferenciais interessantes
+
+alternância tema claro/escuro;
+
+filtro de projetos por categoria;
+
+contador animado de benefícios/resultados;
+
+cards com hover profissional;
+
+simulação de orçamento inicial;
+
+depoimentos em carrossel;
+
+botão “voltar ao topo”.
+
+7. Requisitos não funcionais
+
+Aqui entra a visão de arquitetura.
+
+Escalabilidade
+
+Mesmo sendo um site estático no começo, a estrutura deve prever crescimento.
+Então eu recomendaria separar desde já em uma organização limpa:
+
+index.html
+
+sobre.html
+
+servicos.html
+
+portfolio.html
+
+contato.html
+
+Pastas:
+
+/assets/img
+
+/assets/css
+
+/assets/js
+
+/assets/icons
+
+CSS separado em:
+
+global.css
+
+home.css
+
+components.css
+
+responsive.css
+
+JS separado em:
+
+menu.js
+
+form.js
+
+portfolio.js
+
+theme.js
+
+Isso já passa visão profissional.
+
+Performance
+
+imagens otimizadas;
+
+pouco JavaScript desnecessário;
+
+CSS organizado;
+
+evitar bibliotecas pesadas no início.
+
+SEO
+
+título e descrição em cada página;
+
+headings bem estruturados;
+
+textos reais com palavras-chave locais;
+
+alt nas imagens;
+
+foco em “criação de sites em Ribeirão Preto”, “desenvolvimento web para pequenas empresas”, etc.
+
+Responsividade
+
+O site deve funcionar muito bem em celular, porque seu público vai acessar mais pelo celular que pelo desktop.
+
+Manutenibilidade
+
+Código limpo, nomes claros, componentes reaproveitáveis e visual consistente.
+
+8. Arquitetura recomendada para crescimento futuro
+
+Agora a parte mais importante: pensar no futuro.
+
+Fase 1 — HTML, CSS e JS
+
+Objetivo:
+
+validar marca;
+
+captar primeiros contatos;
+
+montar portfólio;
+
+publicar rápido.
+
+Fase 2 — Estrutura mais profissional
+
+Quando o projeto crescer, você pode migrar para:
+
+React ou Next.js no front;
+
+formulário integrado com backend ou serviço externo;
+
+CMS simples para editar projetos e serviços;
+
+blog;
+
+painel administrativo.
+
+Fase 3 — Operação comercial real
+
+sistema de orçamento;
+
+CRM básico;
+
+cadastro de clientes;
+
+área administrativa;
+
+plano de manutenção;
+
+automações de atendimento;
+
+integração com e-mail marketing;
+
+landing pages por nicho.
+
+Fase 4 — Escala de agência digital
+
+A CasaDigitalRP pode evoluir de “freela” para “microagência” e depois para operação mais madura.
+Aí você pode oferecer:
+
+sites institucionais,
+
+landing pages,
+
+SEO local,
+
+identidade visual em parceria,
+
+manutenção recorrente,
+
+hospedagem/gestão,
+
+automação comercial,
+
+catálogo digital,
+
+integração com WhatsApp,
+
+sistemas web simples para pequenos negócios.
+
+9. Sugestão de páginas futuras
+
+Depois da V1, eu acrescentaria:
+
+página de planos;
+
+blog com artigos;
+
+página “para empresas de Ribeirão Preto”;
+
+página “soluções por nicho”;
+
+estudos de caso;
+
+página de perguntas frequentes;
+
+área de materiais gratuitos;
+
+página de recrutadores / perfil profissional.
+
+Essa última é muito inteligente para seu caso.
+
+Você pode ter uma página tipo:
+“Perfil profissional do desenvolvedor”
+com:
+
+tecnologias estudadas,
+
+projetos,
+
+GitHub,
+
+currículo,
+
+visão profissional,
+
+contatos.
+
+Assim o mesmo site atende cliente e recrutador.
+
+10. Identidade e posicionamento da marca
+
+O nome CasaDigitalRP sugere proximidade, base, estrutura, presença local.
+Isso é bom.
+
+Para a identidade visual, eu sugiro:
+
+visual limpo e profissional;
+
+cores confiáveis;
+
+nada muito infantil ou exagerado;
+
+aparência de empresa séria, moderna e acessível.
+
+Direção visual recomendada:
+
+azul escuro ou grafite para confiança;
+
+cor de destaque para CTA;
+
+tipografia forte e limpa;
+
+bastante espaço em branco;
+
+ícones simples;
+
+mockups de sites em dispositivos.
+
+11. Conteúdo que eu sugiro colocar
+
+Além das páginas, o conteúdo precisa vender.
+
+Você deveria ter textos que respondam:
+
+por que seu negócio precisa de um site;
+
+diferenças entre ter só Instagram e ter um site;
+
+vantagens para pequenas empresas;
+
+como o site ajuda a captar clientes;
+
+por que presença digital passa credibilidade;
+
+como funciona o processo de criação.
+
+Temas de conteúdo futuro para blog:
+
+“Por que sua empresa precisa de um site profissional”
+
+“Instagram não substitui um site”
+
+“5 erros que fazem pequenos negócios perderem clientes online”
+
+“Como um site ajuda sua empresa a vender mais em Ribeirão Preto”
+
+Isso ajuda muito no SEO.
+
+12. Escopo executivo resumido
+
+Se eu fosse escrever isso de forma profissional para documento, ficaria assim:
+
+Projeto: Desenvolvimento do site institucional e comercial da marca CasaDigitalRP.
+Objetivo: criar uma plataforma web responsiva, moderna e escalável, destinada à apresentação institucional da marca, divulgação de serviços de desenvolvimento web, exposição de portfólio, captação de leads e fortalecimento da imagem profissional do fundador.
+Tecnologias iniciais: HTML5, CSS3 e JavaScript.
+Público-alvo: pequenos negócios, autônomos e empresas locais que necessitam de presença digital profissional.
+Entregas principais: home, sobre, serviços, portfólio, contato/orçamento, responsividade, SEO básico, integração com WhatsApp, validação de formulário e estrutura preparada para expansão futura.
+Diretriz arquitetural: solução modular, manutenível, otimizada e preparada para evolução gradual para stack moderna e integração com backend/CMS em fases futuras.
+
+13. Minha recomendação estratégica como mentor
+
+Para você, o melhor caminho não é tentar fazer um site “gigante” logo de cara.
+O melhor é fazer um site com cara de empresa real, mas com escopo controlado.
+
+Eu faria assim:
+
+V1 enxuta e profissional
+
+Home
+
+Sobre
+
+Serviços
+
+Portfólio
+
+Contato
+
+Caprichar muito em
+
+visual;
+
+clareza comercial;
+
+responsividade;
+
+organização do código;
+
+boa escrita;
+
+identidade da marca.
+
+Porque isso já serve para:
+
+mostrar competência;
+
+mandar em currículo;
+
+apresentar a clientes;
+
+postar no GitHub;
+
+usar no LinkedIn;
+
+captar freelance.
+
+14. O que ainda falta decidir
+
+Para fechar um escopo ainda mais profissional, precisamos definir:
+
+identidade visual da marca;
+
+cores principais;
+
+quais serviços entram na V1;
+
+se o foco será mais “agência” ou mais “portfólio pessoal”;
+
+quantos projetos vão aparecer inicialmente;
+
+se você quer formulário real ou só CTA para WhatsApp;
+
+se quer incluir preços/plano ou não.
+
+15. Melhor direção para a CasaDigitalRP
+
+Minha visão: a CasaDigitalRP deve começar como marca comercial de desenvolvimento web, mas com a sua assinatura técnica por trás.
+
+Ou seja:
+
+na frente: marca profissional;
+
+por trás: Gustavo, desenvolvedor construindo portfólio e negócio.
+
+Essa combinação é muito forte. Ela te ajuda a buscar:
+
+clientes,
+
+autoridade,
+
+experiência,
+
+empregabilidade.
+
+No próximo passo, eu posso montar para você o escopo formal em modelo de documento profissional, com seções tipo:
+objetivo, público-alvo, requisitos funcionais, requisitos não funcionais, arquitetura, roadmap e backlog inicial.

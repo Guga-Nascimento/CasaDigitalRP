@@ -1,0 +1,46 @@
+casadigitalrp/
+│
+├── index.html
+├── sobre.html
+├── servicos.html
+├── portfolio.html
+├── contato.html
+│
+├── assets/
+│   ├── css/
+│   │   ├── global.css
+│   │   ├── header.css
+│   │   ├── footer.css
+│   │   ├── home.css
+│   │   ├── sobre.css
+│   │   ├── servicos.css
+│   │   ├── portfolio.css
+│   │   ├── contato.css
+│   │   └── responsive.css
+│   │
+│   ├── js/
+│   │   ├── main.js
+│   │   ├── header.js
+│   │   ├── menu-mobile.js
+│   │   ├── form-contato.js
+│   │   └── portfolio-filter.js
+│   │
+│   ├── img/
+│   │   ├── logo/
+│   │   │   ├── logo-principal.png
+│   │   │   ├── logo-branca.png
+│   │   │   └── favicon.png
+│   │   │
+│   │   ├── banners/
+│   │   ├── portfolio/
+│   │   ├── icons/
+│   │   └── equipe/
+│   │
+│   ├── fonts/
+│   │
+│   └── docs/
+│       ├── escopo-projeto.md
+│       ├── identidade-visual.md
+│       └── backlog.md
+│
+└── README.md
