@@ -35,3 +35,39 @@ button {
   width: min(1200px, 90%);
   margin: 0 auto;
 }
+/*ICON WHATSAPP*/
+.btn-whatsapp {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  height: 56px;
+  padding: 0 24px;
+  /*background: linear-gradient(135deg, #25d366, #1ebe5b);*/
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 14px;
+  /*box-shadow: 0 0 24px rgba(37, 211, 102, 0.18);*/
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  flex-shrink: 0;
+}
+
+.btn-whatsapp:hover {
+  transform: translateY(-2px);
+  box-shadow: 10PX 5PX 42px rgba(37, 211, 102, 0.28);
+}
+
+.btn-whatsapp-icon {
+  width: 35px;
+  height: 35px;
+  object-fit: contain;
+  display: block;
+  flex-shrink: 0;
+}
+
+.btn-whatsapp-label {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #ffffff;
+}
