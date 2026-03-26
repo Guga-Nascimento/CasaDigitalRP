@@ -295,3 +295,54 @@
     font-size: 0.78rem;
   }
 }
+
+@media (max-width: 992px) {
+  .cta-divider-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .cta-divider {
+    padding: 56px 0;
+  }
+
+  .cta-divider-title {
+    font-size: 1.9rem;
+  }
+
+  .cta-divider-text {
+    font-size: 1rem;
+  }
+
+  .btn-divider {
+    width: 100%;
+  }
+
+  .testimonials-home {
+    padding: 70px 0;
+  }
+
+  .testimonials-title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .cta-divider-title {
+    font-size: 1.7rem;
+  }
+
+  .testimonials-title {
+    font-size: 1.7rem;
+  }
+
+  .testimonial-card {
+    padding: 22px 18px;
+  }
+}
