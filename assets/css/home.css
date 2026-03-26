@@ -21,9 +21,9 @@
   inset: 0;
   background: linear-gradient(
     90deg,
-    rgba(27, 54, 143, 0.88) 0%,
-    rgba(17, 21, 37, 0.72) 45%,
-    rgba(11, 16, 32, 0.82) 100%
+    rgba(22, 43, 119, 0.65) 0%,
+    rgba(17, 21, 37, 0.55) 45%,
+    rgba(11, 16, 32, 0.65) 100%
   );
 }
 
@@ -44,8 +44,8 @@
 }
 
 .hero-tag {
-  color: #57b6ff;
-  font-size: 1.95rem;
+  color: #14b4ff;
+  font-size: 2.15rem;
   font-weight: 700;
   margin-bottom: 16px;
   text-transform: uppercase;
@@ -61,7 +61,7 @@
 .hero-text {
   font-size: 1.1rem;
   line-height: 1.7;
-  color: #a4c5ee;
+  color: #cbd8e7;
   margin-bottom: 32px;
   max-width: 620px;
 }
@@ -71,6 +71,11 @@
   gap: 16px;
   flex-wrap: wrap;
   margin-bottom: 42px;
+}
+.hero-title {
+  font-size: 1.7rem;
+  line-height: 1.15;
+  font-weight: 700;
 }
 
 /* ÁREA DO SLIDER */
