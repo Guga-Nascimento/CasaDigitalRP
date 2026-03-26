@@ -21,8 +21,8 @@
   inset: 0;
   background: linear-gradient(
     90deg,
-    rgba(11, 16, 32, 0.88) 0%,
-    rgba(11, 16, 32, 0.72) 45%,
+    rgba(27, 54, 143, 0.88) 0%,
+    rgba(17, 21, 37, 0.72) 45%,
     rgba(11, 16, 32, 0.82) 100%
   );
 }
@@ -45,7 +45,7 @@
 
 .hero-tag {
   color: #57b6ff;
-  font-size: 0.95rem;
+  font-size: 1.95rem;
   font-weight: 700;
   margin-bottom: 16px;
   text-transform: uppercase;
@@ -61,7 +61,7 @@
 .hero-text {
   font-size: 1.1rem;
   line-height: 1.7;
-  color: #c9d3df;
+  color: #a4c5ee;
   margin-bottom: 32px;
   max-width: 620px;
 }
@@ -80,18 +80,17 @@
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 20px;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(253, 253, 253, 0.09);
   backdrop-filter: blur(10px);
 }
 
 .hero-slider-track {
   display: flex;
-  width: 400%;
-  animation: slideHero 16s infinite;
+  transition: transform 0.7s ease;
 }
 
 .hero-slide {
-  width: 100%;
+  min-width: 100%;
   flex: 0 0 100%;
   padding: 28px 24px;
 }
@@ -116,22 +115,4 @@
   color: #c9d3df;
   line-height: 1.6;
   font-size: 1rem;
-}
-
-@keyframes slideHero {
-  0%, 20% {
-    transform: translateX(0);
-  }
-  25%, 45% {
-    transform: translateX(-100%);
-  }
-  50%, 70% {
-    transform: translateX(-200%);
-  }
-  75%, 95% {
-    transform: translateX(-300%);
-  }
-  100% {
-    transform: translateX(0);
-  }
 }
