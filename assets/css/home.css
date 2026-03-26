@@ -83,9 +83,9 @@
   position: relative;
   width: min(100%, 720px);
   overflow: hidden;
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(212, 41, 41, 0.08);
   border-radius: 20px;
-  background: rgba(253, 253, 253, 0.09);
+  background: rgba(119, 189, 255, 0.20);
   backdrop-filter: blur(10px);
 }
 
@@ -103,8 +103,8 @@
 .hero-slide span {
   display: inline-block;
   margin-bottom: 12px;
-  color: #57b6ff;
-  font-size: 0.88rem;
+  color: #0389f0;
+  font-size: 1.88rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.8px;
@@ -120,4 +120,192 @@
   color: #c9d3df;
   line-height: 1.6;
   font-size: 1rem;
+}
+
+/* SECTION SERVIÇOS HOME */
+.services-home {
+  padding: 100px 0;
+  background: linear-gradient(180deg, #1b2740 0%, #233250 100%);
+}
+
+.services-home-header {
+  max-width: 760px;
+  margin-bottom: 48px;
+}
+
+.services-home-tag {
+  color: #57b6ff;
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 14px;
+}
+
+.services-home-title {
+  font-size: 2.4rem;
+  line-height: 1.15;
+  margin-bottom: 18px;
+  color: #ffffff;
+}
+
+.services-home-text {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #c9d3df;
+}
+
+.services-home-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.service-card {
+  background: rgba(11, 16, 32, 0.28);
+  border: 1px solid rgba(87, 182, 255, 0.14);
+  border-radius: 20px;
+  padding: 28px;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(87, 182, 255, 0.4);
+}
+
+.service-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 14px;
+  color: #ffffff;
+}
+
+.service-card p {
+  color: #c9d3df;
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+/* SEPARADOR CTA */
+.cta-divider {
+  padding: 70px 0;
+  background: linear-gradient(90deg, #173cff 0%, #102dbd 100%);
+}
+
+.cta-divider-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.cta-divider-content {
+  max-width: 700px;
+}
+
+.cta-divider-tag {
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 14px;
+  color: #ffd54a;
+}
+
+.cta-divider-title {
+  font-size: 2.2rem;
+  line-height: 1.15;
+  margin-bottom: 16px;
+  color: #ffffff;
+}
+
+.cta-divider-text {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.btn-divider {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 56px;
+  padding: 0 28px;
+  border: 2px solid rgba(255, 255, 255, 0.85);
+  border-radius: 14px;
+  color: #ffffff;
+  font-weight: 700;
+  transition: 0.3s ease;
+  white-space: nowrap;
+}
+
+.btn-divider:hover {
+  background: rgba(255, 255, 255, 0.08);
+  transform: translateY(-2px);
+}
+
+/* DEPOIMENTOS */
+.testimonials-home {
+  padding: 100px 0;
+  background: linear-gradient(180deg, #f3f6fb 0%, #eaf0f8 100%);
+}
+
+.testimonials-header {
+  max-width: 760px;
+  margin-bottom: 48px;
+}
+
+.testimonials-tag {
+  color: #173cff;
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 14px;
+}
+
+.testimonials-title {
+  font-size: 2.3rem;
+  line-height: 1.15;
+  margin-bottom: 18px;
+  color: #0b1020;
+}
+
+.testimonials-text {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #4f5d75;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.testimonial-card {
+  background: #ffffff;
+  border: 1px solid rgba(11, 16, 32, 0.08);
+  border-radius: 20px;
+  padding: 28px;
+  box-shadow: 0 10px 30px rgba(11, 16, 32, 0.06);
+}
+
+.testimonial-message {
+  color: #26354d;
+  line-height: 1.8;
+  font-size: 1rem;
+  margin-bottom: 22px;
+}
+
+.testimonial-name {
+  font-size: 1.1rem;
+  color: #0b1020;
+  margin-bottom: 8px;
+}
+
+.testimonial-role {
+  color: #173cff;
+  font-size: 0.95rem;
+  font-weight: 600;
 }
