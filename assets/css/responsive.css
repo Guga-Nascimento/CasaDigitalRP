@@ -1,3 +1,6 @@
+/* =========================
+   HEADER - AJUSTES ATÉ 1100px
+   ========================= */
 @media (max-width: 1100px) {
   .logo img {
     width: 190px;
@@ -8,11 +11,14 @@
   }
 
   .btn-whatsapp-header {
-    min-width: 190px;
+    min-width: 180px;
     font-size: 0.95rem;
   }
 }
 
+/* =========================
+   HEADER / MENU MOBILE - ATÉ 960px
+   ========================= */
 @media (max-width: 960px) {
   .menu-toggle {
     display: block;
@@ -34,7 +40,8 @@
     opacity: 0;
     visibility: hidden;
     transform: translateY(12px);
-    transition: 0.25s ease;
+    transition: opacity 0.25s ease, visibility 0.25s ease, transform 0.25s ease;
+    z-index: 1000;
   }
 
   .nav.active {
@@ -47,6 +54,7 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 18px;
+    width: 100%;
   }
 
   .nav-item-dropdown {
@@ -82,6 +90,9 @@
   }
 }
 
+/* =========================
+   HEADER - AJUSTES ATÉ 640px
+   ========================= */
 @media (max-width: 640px) {
   .header-container {
     min-height: 84px;
@@ -90,9 +101,19 @@
   .logo img {
     width: 165px;
   }
+
+  .nav {
+    right: 16px;
+    width: min(300px, calc(100vw - 32px));
+  }
 }
 
+/* =========================
+   LAYOUT GERAL - ATÉ 992px
+   ========================= */
 @media (max-width: 992px) {
+
+  /* ---------- FOOTER ---------- */
   .footer-container {
     grid-template-columns: repeat(2, 1fr);
     gap: 36px;
@@ -104,11 +125,248 @@
   }
 
   .btn-whatsapp-footer {
+    width: 100%;
     min-width: 100%;
+  }
+
+  /* ---------- CTA DIVIDER ---------- */
+  .cta-divider-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  /* ---------- HERO ---------- */
+  .hero {
+    min-height: auto;
+  }
+
+  .hero-container {
+    justify-content: center;
+  }
+
+  .hero-content {
+    width: 100%;
+    max-width: 100%;
+    padding: 70px 20px;
+    margin-right: 0;
+  }
+
+  .hero-content h1,
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .hero-text {
+    font-size: 1.05rem;
+  }
+
+  .hero-slider {
+    width: 100%;
+  }
+
+  /* ---------- SERVICES ---------- */
+  .services-home {
+    padding: 80px 0;
+  }
+
+  .services-home-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .services-home-title {
+    font-size: 2rem;
+  }
+
+  .services-home-text {
+    font-size: 1rem;
+  }
+
+  .service-card {
+    padding: 24px;
+  }
+
+  .service-card-header {
+    gap: 14px;
+  }
+
+  .service-card h3 {
+    font-size: 1.35rem;
+    line-height: 1.3;
+  }
+
+  /* ---------- TESTIMONIALS ---------- */
+  .testimonials-grid {
+    grid-template-columns: 1fr;
   }
 }
 
+/* =========================
+   TABLET / MOBILE GRANDE - ATÉ 768px
+   ========================= */
+@media (max-width: 768px) {
+
+  /* ---------- HERO ---------- */
+  .hero-container {
+    justify-content: center;
+  }
+
+  .hero-content {
+    width: 100%;
+    max-width: 100%;
+    padding: 60px 16px;
+    margin-right: 0;
+  }
+
+  .hero-tag {
+    font-size: 0.95rem;
+    line-height: 1.3;
+    word-break: break-word;
+  }
+
+  .hero-content h1,
+  .hero-title {
+    font-size: 2.1rem;
+    line-height: 1.15;
+  }
+
+  .hero-text {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    width: 100%;
+  }
+
+  .hero-slide {
+    padding: 24px 20px;
+  }
+
+  .hero-slide h2 {
+    font-size: 1.15rem;
+  }
+
+  .hero-slide p {
+    font-size: 0.96rem;
+  }
+
+  /* ---------- CTA DIVIDER ---------- */
+  .cta-divider {
+    padding: 56px 0;
+  }
+
+  .cta-divider-title {
+    font-size: 1.9rem;
+  }
+
+  .cta-divider-text {
+    font-size: 1rem;
+  }
+
+  .btn-divider {
+    width: 100%;
+  }
+
+  /* ---------- SERVICES ---------- */
+  .services-home {
+    padding: 70px 0;
+  }
+
+  .services-home-header {
+    margin-bottom: 36px;
+  }
+
+  .services-home-title {
+    font-size: 1.8rem;
+    line-height: 1.2;
+  }
+
+  .services-home-text {
+    font-size: 0.98rem;
+    line-height: 1.7;
+  }
+
+  .service-card {
+    padding: 22px 18px;
+  }
+
+  .service-card-header {
+    align-items: center;
+    gap: 14px;
+  }
+
+  .service-card-icon {
+    width: 56px;
+    height: 56px;
+    flex-shrink: 0;
+  }
+
+  .service-icon {
+    width: 26px;
+    height: 26px;
+  }
+
+  .service-card h3 {
+    font-size: 1.15rem;
+    line-height: 1.35;
+  }
+
+  .service-card p {
+    font-size: 0.96rem;
+    line-height: 1.7;
+  }
+
+  /* ---------- TESTIMONIALS ---------- */
+  .testimonials-home {
+    padding: 70px 0;
+  }
+
+  .testimonials-header {
+    margin-bottom: 36px;
+  }
+
+  .testimonials-title {
+    font-size: 1.8rem;
+    line-height: 1.2;
+  }
+
+  .testimonials-text {
+    font-size: 0.98rem;
+    line-height: 1.7;
+  }
+
+  .testimonial-card {
+    padding: 24px 20px;
+  }
+
+  .testimonial-message {
+    font-size: 0.97rem;
+    line-height: 1.8;
+  }
+
+  .testimonial-name {
+    font-size: 1.05rem;
+  }
+
+  .testimonial-role {
+    font-size: 0.88rem;
+    padding: 5px 10px;
+  }
+}
+
+/* =========================
+   MOBILE PEQUENO - ATÉ 576px
+   ========================= */
 @media (max-width: 576px) {
+
+  /* ---------- FOOTER ---------- */
   .footer {
     margin-top: 60px;
     padding-top: 50px;
@@ -165,92 +423,8 @@
   .btn-whatsapp-label {
     font-size: 0.96rem;
   }
-}
 
-/*Hero edit*/
-@media (max-width: 992px) {
-  .hero {
-    min-height: auto;
-  }
-
-  .hero-container {
-    justify-content: center;
-  }
-
-  .hero-content {
-    width: 100%;
-    max-width: 100%;
-    padding: 70px 20px;
-    margin-right: 0;
-  }
-
-  .hero-content h1,
-  .hero-title {
-    font-size: 2.5rem;
-  }
-
-  .hero-text {
-    font-size: 1.05rem;
-  }
-
-  .hero-slider {
-    width: 100%;
-  }
-}
-
-@media (max-width: 768px) {
-  .hero-container {
-    justify-content: center;
-  }
-
-  .hero-content {
-    width: 100%;
-    max-width: 100%;
-    padding: 60px 16px;
-    margin-right: 0;
-  }
-
-  .hero-tag {
-    font-size: 0.95rem;
-    line-height: 1.3;
-    word-break: break-word;
-  }
-
-  .hero-content h1,
-  .hero-title {
-    font-size: 2.1rem;
-    line-height: 1.15;
-  }
-
-  .hero-text {
-    font-size: 1rem;
-    line-height: 1.6;
-  }
-
-  .hero-buttons {
-    flex-direction: column;
-    align-items: stretch;
-  }
-
-  .btn-primary,
-  .btn-secondary {
-    width: 100%;
-  }
-
-  .hero-slide {
-    padding: 24px 20px;
-  }
-
-  .hero-slide h2 {
-    font-size: 1.15rem;
-  }
-
-  .hero-slide p {
-    font-size: 0.96rem;
-  }
-}
-
-@media (max-width: 576px) {
+  /* ---------- HERO ---------- */
   .hero-container {
     justify-content: center;
   }
@@ -294,55 +468,99 @@
   .hero-slide span {
     font-size: 0.78rem;
   }
-}
 
-@media (max-width: 992px) {
-  .cta-divider-container {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .testimonials-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-@media (max-width: 768px) {
-  .cta-divider {
-    padding: 56px 0;
-  }
-
+  /* ---------- CTA DIVIDER ---------- */
   .cta-divider-title {
-    font-size: 1.9rem;
+    font-size: 1.7rem;
   }
 
-  .cta-divider-text {
-    font-size: 1rem;
+  /* ---------- SERVICES ---------- */
+  .services-home {
+    padding: 60px 0;
   }
 
-  .btn-divider {
-    width: 100%;
+  .services-home-title {
+    font-size: 1.6rem;
   }
 
+  .services-home-tag {
+    font-size: 0.82rem;
+  }
+
+  .service-card {
+    border-radius: 18px;
+    padding: 20px 16px;
+  }
+
+  .service-card-header {
+    align-items: center;
+    gap: 12px;
+  }
+
+  .service-card-icon {
+    width: 52px;
+    height: 52px;
+    border-radius: 12px;
+    flex-shrink: 0;
+  }
+
+  .service-icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  .service-card h3 {
+    font-size: 1.02rem;
+  }
+
+  .service-card p {
+    font-size: 0.94rem;
+  }
+
+  /* ---------- TESTIMONIALS ---------- */
   .testimonials-home {
-    padding: 70px 0;
+    padding: 60px 0;
+  }
+
+  .testimonials-tag {
+    font-size: 0.82rem;
   }
 
   .testimonials-title {
-    font-size: 2rem;
-  }
-}
-
-@media (max-width: 576px) {
-  .cta-divider-title {
-    font-size: 1.7rem;
-  }
-
-  .testimonials-title {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
   }
 
   .testimonial-card {
-    padding: 22px 18px;
+    border-radius: 18px;
+    padding: 20px 16px;
+  }
+
+  .testimonial-stars {
+    font-size: 0.95rem;
+    gap: 4px;
+    margin-bottom: 14px;
+  }
+
+  .testimonial-message {
+    font-size: 0.94rem;
+    margin-bottom: 18px;
+  }
+
+  .testimonial-divider {
+    width: 44px;
+    margin-bottom: 16px;
+  }
+
+  .testimonial-name {
+    font-size: 1rem;
+    margin-bottom: 8px;
+  }
+
+  .testimonial-role {
+    font-size: 0.85rem;
+    padding: 5px 9px;
   }
 }
+
+
+
