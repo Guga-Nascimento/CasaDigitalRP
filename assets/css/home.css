@@ -78,10 +78,94 @@
   font-weight: 700;
 }
 
+.hero {
+  position: relative;
+  min-height: calc(100vh - 92px);
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background: linear-gradient(180deg, #ced0d6 0%, #0b1020 100%);
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("../img/banners/fundoSectionHome") center/cover no-repeat;
+  opacity: 0.48;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(22, 43, 119, 0.65) 0%,
+    rgba(17, 21, 37, 0.55) 45%,
+    rgba(11, 16, 32, 0.65) 100%
+  );
+}
+
+.hero-container {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.hero-content {
+  max-width: 760px;
+  width: 100%;
+  padding: 80px 0;
+  margin-right: 6%;
+}
+
+.hero-tag {
+  color: #14b4ff;
+  font-size: 2.15rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.hero-text {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #cbd8e7;
+  margin-bottom: 32px;
+  max-width: 620px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 42px;
+}
+.hero-title {
+  font-size: 1.7rem;
+  line-height: 1.15;
+  font-weight: 700;
+}
+
 /* ÁREA DO SLIDER */
+.hero-slider-wrapper {
+  width: min(100%, 720px);
+}
+
 .hero-slider {
   position: relative;
-  width: min(100%, 720px);
+  width: 100%;
   overflow: hidden;
   border: 1px solid rgba(212, 41, 41, 0.08);
   border-radius: 20px;
@@ -97,14 +181,14 @@
 .hero-slide {
   min-width: 100%;
   flex: 0 0 100%;
-  padding: 28px 24px;
+  padding: 28px 24px 40px;
 }
 
 .hero-slide span {
   display: inline-block;
   margin-bottom: 12px;
   color: #0389f0;
-  font-size: 1.88rem;
+  font-size: 0.85rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.8px;
@@ -121,6 +205,36 @@
   line-height: 1.6;
   font-size: 1rem;
 }
+
+.hero-slider-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 18px;
+}
+
+.hero-dot {
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.35);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.hero-dot:hover {
+  transform: scale(1.12);
+  background: rgba(255, 255, 255, 0.65);
+}
+
+.hero-dot.active {
+  background: #57b6ff;
+  transform: scale(1.18);
+}
+
 
 /* SECTION SERVIÇOS HOME */
 .services-home {
