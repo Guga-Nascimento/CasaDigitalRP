@@ -162,22 +162,29 @@
 }
 
 .service-card {
-  background: rgba(11, 16, 32, 0.28);
-  border: 1px solid rgba(87, 182, 255, 0.14);
+  background: rgba(20, 28, 45, 0.85);
+  border: 1px solid rgba(252, 255, 88, 0.14);
   border-radius: 20px;
   padding: 28px;
   transition: transform 0.3s ease, border-color 0.3s ease;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
 }
 
 .service-card:hover {
   transform: translateY(-4px);
-  border-color: rgba(87, 182, 255, 0.4);
+  border-color: rgba(250, 246, 5, 0.774);
+  box-shadow: 0 20px 40px rgba(250, 246, 5, 0.048);
+}
+.service-card-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
 .service-card h3 {
   font-size: 1.3rem;
   margin-bottom: 14px;
-  color: #47c4f5;
+  color: #f5f7fb;
 }
 
 .service-card p {
@@ -204,12 +211,12 @@
 }
 
 .cta-divider-tag {
-  font-size: 0.95rem;
+  font-size: 1.95rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 14px;
-  color: #ffd54a;
+  color: #ffc507;
 }
 
 .cta-divider-title {
@@ -308,4 +315,21 @@
   color: #173cff;
   font-size: 0.95rem;
   font-weight: 600;
+}
+/*Edição icons*/
+.service-card-icon {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 230, 0, 0.089);
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+
+.service-icon {
+  width: 30px;
+  height: 30px;
+  color: #f5f247;
 }
